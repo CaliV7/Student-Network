@@ -13,7 +13,7 @@
     <div></div>
     <form action="" method="post">
         <h1>Formulaire d'Inscription</h1>
-        <label id="login" for="login">Login:</label>
+        <label id="login" for="login">Login:</label><!-- Login c'est une sorte d'identifiant ? -->
         <input name="login" placeholder="Votre Login" type="text" require>
         <br>
         <label id="nom" for="name">Nom:</label>
@@ -47,7 +47,7 @@
     $username="root";
     $password="root";
 
-
+    
 
     try {
         $pdo = new PDO("mysql:host=$host;dbname=$bddname;charset=utf8", $username, $password);
